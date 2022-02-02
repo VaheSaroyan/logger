@@ -1,0 +1,22 @@
+{
+  "name": "@vahesaroyan/logger-example",
+  "displayName": "Logger Example",
+  "expo": {
+    "name": "@vahesaroyan/logger-example",
+    "slug": "vahesaroyan-logger-example",
+    "description": "Example app for @vahesaroyan/logger",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
