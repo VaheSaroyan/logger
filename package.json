@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/VaheSaroyan/vahesaroyan-logger",
+  "repository": "https://github.com/VaheSaroyan/logger",
   "author": "Vahe Saroyan <vahe.saroyan.web@gmail.com> (https://github.com/VaheSaroyan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VaheSaroyan/vahesaroyan-logger/issues"
+    "url": "https://github.com/VaheSaroyan/logger/issues"
   },
-  "homepage": "https://github.com/VaheSaroyan/vahesaroyan-logger#readme",
+  "homepage": "https://github.com/VaheSaroyan/logger#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -143,5 +143,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "get-current-line": "^6.6.0"
   }
 }

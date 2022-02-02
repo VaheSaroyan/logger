@@ -1,18 +1,24 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from '@vahesaroyan/logger';
+import { Component } from './Component';
+import { logger } from '@vahesaroyan/logger';
 
+logger.log('asdasd');
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
+  // const [result, setResult] = React.useState<number | undefined>();
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    // logger.log(3, 7);
+    // logger.log({
+    //   a: 1,
+    //   b: { c: 2 },
+    // });
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: {1}</Text>
+      <Component />
     </View>
   );
 }
