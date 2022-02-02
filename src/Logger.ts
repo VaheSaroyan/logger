@@ -1,4 +1,4 @@
-import getCurrentLine from 'get-current-line';
+// import getCurrentLine from 'get-current-line';
 
 // export enum LOG_TYPE {
 //   DEBUG = 'DEBUG',
@@ -16,7 +16,7 @@ import getCurrentLine from 'get-current-line';
 // };
 //
 const MAIN_CONFIG = {
-  ENABLE_LOGS: !__DEV__,
+  ENABLE_LOGS: __DEV__,
 };
 //
 // export class Logger {
@@ -154,9 +154,9 @@ export function Logger() {
           // .apply((e) => {
           //   console.log(e);
           // })
-          (e: any) => {
-            console.log(getCurrentLine());
-            console.log(`[ ${m.toUpperCase()} ] - ${_ts()}`, e);
+          () => {
+            // console.log(getCurrentLine());
+            // console.log(`[ ${m.toUpperCase()} ] - ${_ts()}`, e);
           };
   }
   return debug;
